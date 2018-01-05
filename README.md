@@ -8,15 +8,8 @@ at high validity rate checked by rdkit. More results are posted
 the blog
 
 Some of the generated smiles:
-CC1CCOC(C)N1CCN1CCN(CC(=O)N2CCCC2)CC1
+CC1CCOC(C)N1CCN1CCN(CC(=O)N2CCCC2)CC1 and 
 CC1=NN(c2ccccc2)C1=O
-
-Samplig temperature vs smiles_validty
-samping temperature     smiles_validity
-0.3                         0.98
-0.5                         0.94
-0.7                         0.84
-0.9                         0.80
 
 To run the code:
 
