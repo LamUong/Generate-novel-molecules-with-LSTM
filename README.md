@@ -14,13 +14,19 @@ CC1=NN(c2ccccc2)C1=O
 To run the code:
 
 go to the generative_model folder
+
 make a folder called data: mkdir data
+
 download the processed ChEMBL data from https://drive.google.com/file/d/1gXGxazJDIhjlGFwOCt8J_BET7qbVSDZ_/view?usp=sharing 
+
 and placed it in the data folder.
+
 run python data_processing.py to process data
+
 run python generator_training.py to train the model
 
 If you do not want to train the model I have uploaded a pretrain model at 
+
 https://drive.google.com/file/d/1M4GSelOfg9OGuSwkTkp-MBjeOx2ca_C-/view
 
 You can just download the file to the generative folder and run the testing script.
