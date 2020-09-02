@@ -6,7 +6,7 @@ import time, math
 from random import randint
 
 def load_data():
-    f = np.load('data/smiles_data.npz')
+    f = np.load('data/smiles_data.npz',allow_pickle=True)
     return f['data_set'],f['vocabs']
 
 def tensor_from_chars_list(chars_list,vocabs,cuda):
